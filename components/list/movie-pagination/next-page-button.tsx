@@ -19,6 +19,7 @@ export default function NextPageButton({
       disabled={currentPage >= totalPages || isDisabled}
       className="flex h-8 w-8 items-center justify-center text-gray-400 hover:bg-gray-50 disabled:opacity-50"
       aria-label="Next page"
+      data-testid="next-page-button"
     >
       <ArrowRight className="h-3 w-3" />
     </button>

@@ -17,6 +17,7 @@ export default function FirstPageButton({
       disabled={currentPage === 1 || isDisabled}
       className="flex h-8 w-8 items-center justify-center text-gray-400 hover:bg-gray-50 disabled:opacity-50"
       aria-label="First page"
+      data-testid="first-page-button"
     >
       <ArrowLeftToLine className="h-3 w-3" />
     </button>

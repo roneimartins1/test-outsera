@@ -11,7 +11,7 @@ export default async function Dashboard(props: {
   const year = yearStr ? parseInt(yearStr, 10) : undefined
 
   return (
-    <main className="w-full overflow-y-auto px-8 py-4">
+    <main id="main-content" className="w-full overflow-y-auto px-8 py-4">
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
         <ListYearsWithMultipleWinners />
         <TopStudiosWithWinners />

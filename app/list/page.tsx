@@ -11,7 +11,7 @@ function ListMoviesContent() {
     useMoviesList()
 
   return (
-    <main className="w-full overflow-y-auto p-4">
+    <main id="main-content" className="w-full overflow-y-auto p-4">
       <div className="flex flex-col gap-2 rounded border border-gray-100 bg-white p-4 shadow-sm">
         <Typography variant="h2" type="h2">
           List movies
@@ -38,7 +38,13 @@ function ListMoviesContent() {
 
 export default function ListMoviesPage() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense
+      fallback={
+        <div role="status" aria-live="polite" className="p-4 text-sm text-gray-500">
+          Loading...
+        </div>
+      }
+    >
       <ListMoviesContent />
     </Suspense>
   )

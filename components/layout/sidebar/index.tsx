@@ -14,7 +14,10 @@ export function Sidebar() {
 
   return (
     <aside className="max-w-[50%] min-w-[15%] bg-slate-100">
-      <nav className="flex flex-col gap-0.5 px-2 py-4">
+      <nav
+        aria-label="Main navigation"
+        className="flex flex-col gap-0.5 px-2 py-4"
+      >
         {LINKS.map((link) => {
           const isActive = pathname === link.href
           return (

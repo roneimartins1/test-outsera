@@ -1,7 +1,7 @@
 "use client"
 
 import FirstPageButton from "./first-page-button"
-import PrevPageButton from "./prev-page-button"
+import PreviousPageButton from "./previous-page-button"
 import VisiblePagesButtons from "./visible-pages-buttons"
 import NextPageButton from "./next-page-button"
 import LastPageButton from "./last-page-button"
@@ -31,14 +31,17 @@ export default function MoviePagination({
 
   return (
     <div className="flex justify-center border-x border-b border-stone-300 bg-taupe-100">
-      <nav className="flex items-center overflow-hidden text-xs">
+      <nav
+        aria-label="Pagination"
+        className="flex items-center overflow-hidden text-xs"
+      >
         <FirstPageButton
           onPageChange={handlePageChange}
           currentPage={currentPage}
           isDisabled={isDisabled}
         />
 
-        <PrevPageButton
+        <PreviousPageButton
           onPageChange={handlePageChange}
           currentPage={currentPage}
           isDisabled={isDisabled}

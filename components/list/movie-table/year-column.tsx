@@ -38,6 +38,7 @@ export default function YearColumn() {
         <input
           type="number"
           placeholder="Filter by year"
+          aria-label="Filter by year"
           className="w-full rounded-sm border border-stone-300 bg-white px-2 py-1.5 text-xs font-normal"
           value={yearInput}
           onChange={(event) => setYearInput(event.target.value)}

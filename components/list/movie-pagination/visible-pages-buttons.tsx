@@ -28,6 +28,7 @@ export default function VisiblePagesButtons({
           )}
           aria-label={`Page ${page}`}
           aria-current={currentPage === page ? "page" : undefined}
+          data-testid={`visible-pages-buttons-${page}`}
         >
           {page}
         </button>

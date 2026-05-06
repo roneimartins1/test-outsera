@@ -29,6 +29,7 @@ export default function WinnerColumn() {
         <span className="text-center">Winner?</span>
         <div className="relative">
           <select
+            aria-label="Filter by winner"
             className="w-full appearance-none rounded-sm border border-gray-300 bg-white px-2 py-1.5 text-center text-xs font-normal"
             onChange={onWinnerChange}
           >

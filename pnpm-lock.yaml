@@ -14,9 +14,6 @@ importers:
       brandi:
         specifier: ^5.1.0
         version: 5.1.0
-      brandi-react:
-        specifier: ^5.1.0
-        version: 5.1.0(brandi@5.1.0)(react@19.2.5)
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -2136,12 +2133,6 @@ packages:
   braces@3.0.3:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
-
-  brandi-react@5.1.0:
-    resolution: {integrity: sha512-eOceMj/GwLTo501X/fgL8HAYmUrjkwZwCHXaS/uPHYa0+i5vbg0WV/98nYYVa7qHwRC5c9iw0sn+fAuPofZbHg==}
-    peerDependencies:
-      brandi: ^3 || ^4 || ^5
-      react: ^16.8.0 || ^17 || ^18 || ^19
 
   brandi@5.1.0:
     resolution: {integrity: sha512-wGAIaC/pj/SMRCc7RdEhawT83YcbuxSViRAWp0d5cWOCjpGqAzCJo8NeiL/5rUbAPL4zlQ45ciz5eMnARMGygA==}
@@ -7068,11 +7059,6 @@ snapshots:
   braces@3.0.3:
     dependencies:
       fill-range: 7.1.1
-
-  brandi-react@5.1.0(brandi@5.1.0)(react@19.2.5):
-    dependencies:
-      brandi: 5.1.0
-      react: 19.2.5
 
   brandi@5.1.0: {}
 

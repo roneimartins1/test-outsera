@@ -47,7 +47,7 @@ O projeto foi construído focando em performance, testabilidade e um design syst
 
 #### Pré-requisitos
 
-- **Node.js**: versão 18 ou superior.
+- **Node.js**: versão 22.20.0 ou superior.
 - **Gerenciador de Pacotes**: `pnpm` (recomendado), `npm` ou `yarn`.
 
 #### Passo a passo
@@ -138,7 +138,7 @@ The project was built focusing on performance, testability, and a consistent des
 
 #### Prerequisites
 
-- **Node.js**: version 18 or higher.
+- **Node.js**: version 22.20.0 or higher.
 - **Package Manager**: `pnpm` (recommended), `npm` or `yarn`.
 
 #### Step by Step
